@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# User Onboarding Case Study 01
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Version 1.0.0
+- Last Updated October 25, 2022
+- Author: ~M.Dolce
+---
+This project demonstrates an understanding and ability to execute the following steps:
+- Familiarity with client-side JavaScript application development and the React library
+- Implementation of a single-page application in React
+- Using various React features, including components and forms
+- Understanding of the front end of a web application using React and running it on a local development server
+- Designing responsive React applications using Reactstrap
+- Managing state in a React-Redux application with Redux
+- Sending HTTP requests to a server using the Fetch API and dealing with HTTP responses
 
-## Available Scripts
+## Workflow & Planning: What Is This?
+In preparation for the upcoming development of a React application using MongoDB with React Native, this project seeks to develop a UI to determine whether a user has an existing login account or not.
 
-In the project directory, you can run:
+### Figma Resource
 
-### `npm start`
+<p>
+  <a href="https://www.figma.com/file/p8NYRlTxSBDO4xhbPBx8W9/User-Flow%2FPM?node-id=0%3A1" target="_blank">
+    <img src="https://github.com/mrsdo/portfolio-shegottablog/blob/189a6a68290e4fc2a60d51706dc34ac80f67b9c8/src/assets/User%20Flow_PM.png" alt="Userflow Workflow" width="800" height="400">
+  </a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Research, Resources & Documentation
+Thank you to the folks supporting many openly available source codes, tutorials, and applications used as an impetus for the development of this project.
+- 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## npm + Node.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Be sure to have [Node.js](https://nodejs.org/) installed before proceeding. **We recommend using Node's LTS releases, which is currently at v16.x. We only test our compiled CSS against v16.**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```shell
+# Clone the repo
+git clone https://github.com/twbs/bootstrap-npm-starter
+cd bootstrap-npm-starter
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install dependencies
+npm i
 
-### `npm run eject`
+# Compile Sass
+npm run css-compile
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Start server and watch Sass
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Watch Sass for changes (uses nodemon)
+npm run watch
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Start local server
+npm run server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Watches Sass for changes and starts a local server
+npm start
+```
 
-## Learn More
+For the most straightforward development, open Terminal and run `npm start`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open <http://localhost:3000> to see the page in action.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## npm Updating Packages
 
-### Code Splitting
+**[npm Updating local packages:](https://docs.npmjs.com/updating-packages-downloaded-from-the-registry)** Updating local and global packages you downloaded from the registry
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+`npm update`
 
-### Analyzing the Bundle Size
+`npm outdated -g --depth=0`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+`npm update -g <package_name>’
 
-### Making a Progressive Web App
+```
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Reference Sites 
