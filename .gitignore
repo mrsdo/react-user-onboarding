@@ -13,6 +13,7 @@
 .gitignore
 /build
 /_docs
+/server/node_modules
 .idea/
 **/.DS_Store
 **/._**
