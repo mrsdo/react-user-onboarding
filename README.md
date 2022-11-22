@@ -19,7 +19,7 @@ In preparation for the upcoming development of a React application using MongoDB
 ### Figma Resource
 <p>
   <a href="https://www.figma.com/file/p8NYRlTxSBDO4xhbPBx8W9/User-Flow%2FPM?node-id=0%3A1" target="_blank">
-    <img src="server/src/app/assets/img/Screen Shot 2022-11-02 at 6.15.59 PM.png" alt="User Workflow" width="800" height="400">
+    <img src="client/public/Figma-20221102-61559PM.png" alt="User Workflow" width="800" height="400">
   </a>
 </p>
 
