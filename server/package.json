@@ -4,6 +4,7 @@
   "description": "Node.js Express Server Application/Architecture with CORS, Authenticaton & Authorization middlewares, Mongoose ODM",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "M.DOLCE",
