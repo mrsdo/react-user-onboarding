@@ -1,14 +1,20 @@
 /**
- * Define model for the role model
- * name, auth (1-admin, 2-moderator, 3-user), type
+ * role.model.js
+ *
+ * Use Mongoose to build a Role Schema for ['user','moderator','admin']
  */
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
-const Role = mongoose.model(
-    "Role",
-    new mongoose.Schema({
-        name: String, //[BoardUser, BoardModerator, BoardAdmin]
-    })
-);
+const RoleSchema = mongoose.Schema({
+  name: {
+      type: String, //['user','moderator','admin']
+      required: true,
+      trim: true,
+      default: 'user',
+      lowercase: true,
 
-module.exports = Role;
+      //index: true, TODO: Research index, sparse and unique for schema
+  },
+});
+
+module.exports = mongoose.model('Role', RoleSchema);
