@@ -2,36 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a17be9f-f334-4a02-a3b5-0e99bf21d2f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Signup.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/testing-UI/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/utils/fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/controller-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/routes-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/app/assets/img/Screen Shot 2022-11-02 at 6.15.59 PM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-boarding-wiki.highland" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/controller-test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/Screen Shot 2022-10-29 at 2.11.17 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/routes-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app/assets/img/Screen Shot 2022-11-02 at 6.15.59 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/config/db.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/db/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/db/mongoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/db/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/role.model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/user.model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/services/Server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,18 +85,18 @@
       <recent name="$PROJECT_DIR$/src/https" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_archive" />
+      <recent name="$PROJECT_DIR$/server/src" />
       <recent name="$PROJECT_DIR$/server/src/services" />
       <recent name="$PROJECT_DIR$/server/src/db" />
-      <recent name="$PROJECT_DIR$/server/src" />
       <recent name="$PROJECT_DIR$/server/app" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm server start">
+  <component name="RunManager" selected="npm.npm Express Server start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="npm server start" type="js.build_tools.npm">
+    <configuration name="npm Express Server start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/server/package.json" />
       <command value="run" />
       <scripts>
@@ -109,7 +108,7 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
-      <item itemvalue="npm.npm server start" />
+      <item itemvalue="npm.npm Express Server start" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -132,7 +131,7 @@
       <workItem from="1668765513316" duration="583000" />
       <workItem from="1668853742663" duration="99000" />
       <workItem from="1668969541785" duration="4777000" />
-      <workItem from="1669045960363" duration="22263000" />
+      <workItem from="1669045960363" duration="23513000" />
     </task>
     <servers />
   </component>
