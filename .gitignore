@@ -16,12 +16,12 @@
 ~
 *.pem
 /build
+
 /_docs
 /_archive
 /server/node_modules
-/server/public
-/server/src
-/src
+/client/node_modules
+
 
 
 
@@ -36,3 +36,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+

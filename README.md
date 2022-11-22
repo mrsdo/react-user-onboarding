@@ -19,19 +19,22 @@ In preparation for the upcoming development of a React application using MongoDB
 ### Figma Resource
 <p>
   <a href="https://www.figma.com/file/p8NYRlTxSBDO4xhbPBx8W9/User-Flow%2FPM?node-id=0%3A1" target="_blank">
-    <img src="_docs/Screen Shot 2022-11-02 at 6.15.59 PM.png" alt="User Workflow" width="800" height="400">
+    <img src="server/src/app/assets/img/Screen Shot 2022-11-02 at 6.15.59 PM.png" alt="User Workflow" width="800" height="400">
   </a>
 </p>
 
 ## Server Features
 A simplified explanation of npm packages used in this project.
-- **https:** Installed Self-Signed Certificate with https load via package.json
+- **https:** Installed Self-Signed Certificate with https load via package.json - DONE
 - **Express:** Web framework for node.js
 - **Mongoose:** Database object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks
 - **Morgan:** HTTP request logger middleware for node.js
 - **CORS:** Restricts resources on a web page to be requested from another domain outside the domain from which the first resource was served
 - **Dotenv:**Loads environment variables from a .env file into process.env
 - **Nodemon:** Automatically restart the node application when file changes in the directory are detected
+
+
+
 
 ## Client Features
 A simplified explanation of npm packages used in this project.
@@ -62,6 +65,8 @@ Thank you to the folks supporting many openly available source codes, tutorials,
 ## Reference Sites 
 
 Application Structure
+https://www.bezkoder.com/react-redux-jwt-auth/
+https://www.bezkoder.com/node-js-mongodb-auth-jwt/
 
 Front-end UI/UX
 BOOTSTRAP
