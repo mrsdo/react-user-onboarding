@@ -9,7 +9,11 @@
  *
  *
  */
-
+module.exports = {
+    HOST: "localhost",
+    PORT: 27017,
+    DB: "react_user_onboarding_local"
+};
 
 /**
  * Define path to ./config/.env file

@@ -5,7 +5,7 @@
  */
 const mongoose = require('mongoose');
 
-const RoleSchema = mongoose.Schema({
+/*const RoleSchema = mongoose.Schema({
   name: {
       type: String, //['user','moderator','admin']
       required: true,
@@ -17,4 +17,20 @@ const RoleSchema = mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model('Role', RoleSchema);
+module.exports = mongoose.model('Role', RoleSchema);*/
+
+const Role = mongoose.model(
+    "Role",
+    new mongoose.Schema({
+        name: {
+            type: String, //['user','moderator','admin']
+            required: true,
+            trim: true,
+            default: 'user',
+            lowercase: true,
+
+            //index: true, TODO: Research index, sparse and unique for schema
+
+    }}
+));
+module.exports = Role;

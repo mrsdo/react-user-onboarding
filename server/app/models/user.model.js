@@ -5,7 +5,7 @@
  */
 const mongoose = require('mongoose');
 
-const UserSchema = new mongoose.Schema({
+/*const User = mongoose.Schema({
     firstname: {
         type: String,
         required: true,
@@ -40,5 +40,43 @@ const UserSchema = new mongoose.Schema({
 
 });
 
-module.exports = mongoose.model('User', UserSchema);
+module.exports = mongoose.model('User', UserSchema);*/
 
+const User = mongoose.model(
+    "User",
+    new mongoose.Schema({
+        firstname: {
+            type: String,
+            required: true,
+            minlength: 3,
+            trim: true,
+        },
+        lastname: {
+            type: String,
+            required: true,
+            minlength: 3,
+            trim: true,
+        },
+        email: {
+            type: String,
+            required: true,
+            trim: true,
+        },
+        password: {
+            type: String,
+            required: true,
+            trim: true,
+            minlength: 6,
+            // use regex for further validation
+        },
+        role: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Role',
+            required: true,
+            default: 'user',
+            // index: true, TODO: What is schema role index?
+        },
+    })
+);
+
+module.exports = User;
