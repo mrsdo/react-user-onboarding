@@ -33,11 +33,73 @@ A simplified explanation of npm packages used in this project.
 - **Dotenv:**Loads environment variables from a .env file into process.env
 - **Nodemon:** Automatically restart the node application when file changes in the directory are detected
 
+## API Testing
 
+** User Signup API**
+Using postman desktop app with the following:
 
+> API: https://localhost:8080/api/auth/signup
+```
+Body/Raw/JSON 
 
-## Client Features
-A simplified explanation of npm packages used in this project.
+{
+   "firstname": "Imauser",
+   "lastname": "Tood",
+    "username": "twotimes",
+    "email": "tood@gmail.com",
+    "password": "12345823@",
+    "roles": ["user","moderator"]
+}
+
+```
+> Response
+
+```
+   "message": "User was registered successfully!"
+```
+```
+MongoDB
+{
+"_id": {
+"$oid": "637d962ad8f53d54b17f922c"
+},
+"username": "threeimes",
+"email": "tood3@gmail.com",
+"password": "$2a$08$49KEZRM6CZdEBy9uVVpZl.TvZNzhtO9E5iVZjS6iKnkbkgr4pptzm",
+"roles": [
+{
+"$oid": "637d65a1e0da3d10617743e3"
+}
+],
+"__v": 1
+}
+```
+
+> API: https://localhost:8080/api/auth/signin
+```
+Body/Raw/JSON 
+
+{
+
+    "username": "threeimes",
+    "password": "1234582!!"
+
+}
+
+```
+> Response
+
+```
+   {
+    "id": "637d962ad8f53d54b17f922c",
+    "username": "threeimes",
+    "email": "tood3@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ],
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzN2Q5NjJhZDhmNTNkNTRiMTdmOTIyYyIsImlhdCI6MTY2OTE3NTA1OSwiZXhwIjoxNjY5MjYxNDU5fQ.Tv6PQ5Ml1-rp09KRZsfljh7tE7-Gw43nv_ubbJq91xA"
+}
+```
 
 # Research, Resources & Documentation
 Thank you to the folks supporting many openly available source codes, tutorials, and applications used as an impetus for the development of this project.
