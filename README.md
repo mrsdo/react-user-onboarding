@@ -25,7 +25,7 @@ In preparation for the upcoming development of a React application using MongoDB
 
 ## Server Features
 A simplified explanation of npm packages used in this project.
-- **https:** Installed Self-Signed Certificate with https load via package.json - DONE
+- **https:** Want to install Self-Signed Certificate with https load via package.json - Research this...
 - **Express:** Web framework for node.js
 - **Mongoose:** Database object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks
 - **Morgan:** HTTP request logger middleware for node.js
