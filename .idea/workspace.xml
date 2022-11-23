@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a17be9f-f334-4a02-a3b5-0e99bf21d2f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/app/config/auth.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/app/middleware/verifysignup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app/config/db.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/config/db.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app/models/role.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/models/role.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app/models/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/models/user.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +37,14 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "true",
+    "javascript.nodejs.core.library.configured.version": "16.13.2",
+    "javascript.nodejs.core.library.typings.version": "16.18.3",
     "last_opened_file_path": "/Users/mrsdo/NodeJS-Web/react-user-onboarding/client/public",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,7 +110,7 @@
       <workItem from="1668765513316" duration="583000" />
       <workItem from="1668853742663" duration="99000" />
       <workItem from="1668969541785" duration="4777000" />
-      <workItem from="1669045960363" duration="36821000" />
+      <workItem from="1669045960363" duration="40051000" />
     </task>
     <servers />
   </component>
