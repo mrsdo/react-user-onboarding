@@ -35,13 +35,7 @@ app.get('/', (req, res) => {
     });
 });
 
-/**
- * Set PORT and Listen for incoming requests on 8080
- */
-const port = process.env.PORT || 8080;
-app.listen(port, () => {
-    console.log(`Server is listening on port ${port}`);
-});
+
 
 /**
  * Code to open Mongoose connection to MongoDB database
@@ -105,3 +99,15 @@ function initial() {
         }
     });
 }
+
+// routes
+require('./app/routes/auth.routes')(app);
+require('./app/routes/user.routes')(app);
+
+/**
+ * Set PORT and Listen for incoming requests on 8080
+ */
+const port = process.env.PORT || 8080;
+app.listen(port, () => {
+    console.log(`Server is listening on port ${port}`);
+});

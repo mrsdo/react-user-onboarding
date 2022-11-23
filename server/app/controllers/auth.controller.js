@@ -1,20 +1,10 @@
-/**
- * auth.controller.js
- * @type {{secret: string}|{secret?: string}}
- */
-
 const config = require("../config/auth.config");
 const db = require("../models");
 const User = db.user;
 const Role = db.role;
 
-/**
- * 
- * /auth/login:
- *   post:
- */   
-let jwt = require("jsonwebtoken");
-let bcrypt = require("bcryptjs");
+var jwt = require("jsonwebtoken");
+var bcrypt = require("bcryptjs");
 
 exports.signup = (req, res) => {
     const user = new User({
@@ -87,7 +77,7 @@ exports.signin = (req, res) => {
                 return res.status(404).send({ message: "User Not found." });
             }
 
-            const passwordIsValid = bcrypt.compareSync(
+            var passwordIsValid = bcrypt.compareSync(
                 req.body.password,
                 user.password
             );
@@ -99,11 +89,11 @@ exports.signin = (req, res) => {
                 });
             }
 
-            const token = jwt.sign({ id: user.id }, config.secret, {
+            var token = jwt.sign({ id: user.id }, config.secret, {
                 expiresIn: 86400 // 24 hours
             });
 
-            const authorities = [];
+            var authorities = [];
 
             for (let i = 0; i < user.roles.length; i++) {
                 authorities.push("ROLE_" + user.roles[i].name.toUpperCase());

@@ -19,18 +19,13 @@ const mongoose = require('mongoose');
 
 module.exports = mongoose.model('Role', RoleSchema);*/
 
+
+
 const Role = mongoose.model(
     "Role",
     new mongoose.Schema({
-        name: {
-            type: String, //['user','moderator','admin']
-            required: true,
-            trim: true,
-            default: 'user',
-            lowercase: true,
+        name: String
+    })
+);
 
-            //index: true, TODO: Research index, sparse and unique for schema
-
-    }}
-));
 module.exports = Role;
