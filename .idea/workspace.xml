@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a17be9f-f334-4a02-a3b5-0e99bf21d2f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/app/config/auth.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/app/middleware/verifysignup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/app/middleware/authJwt.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +108,7 @@
       <workItem from="1668765513316" duration="583000" />
       <workItem from="1668853742663" duration="99000" />
       <workItem from="1668969541785" duration="4777000" />
-      <workItem from="1669045960363" duration="40051000" />
+      <workItem from="1669045960363" duration="42044000" />
     </task>
     <servers />
   </component>
