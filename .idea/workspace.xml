@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a17be9f-f334-4a02-a3b5-0e99bf21d2f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server/app/middleware/authJwt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/app/controllers/auth.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/app/controllers/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/app/middleware/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/app/routes/auth.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/app/routes/user.routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +66,11 @@
       <recent name="$PROJECT_DIR$/server/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/app/routes" />
       <recent name="$PROJECT_DIR$/server/app" />
       <recent name="$PROJECT_DIR$/_docs" />
       <recent name="$PROJECT_DIR$/_archive" />
       <recent name="$PROJECT_DIR$/server/src" />
-      <recent name="$PROJECT_DIR$/server/src/services" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm Express Server start">
@@ -108,7 +112,7 @@
       <workItem from="1668765513316" duration="583000" />
       <workItem from="1668853742663" duration="99000" />
       <workItem from="1668969541785" duration="4777000" />
-      <workItem from="1669045960363" duration="42044000" />
+      <workItem from="1669045960363" duration="43481000" />
     </task>
     <servers />
   </component>
