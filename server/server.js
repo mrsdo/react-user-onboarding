@@ -1,41 +1,125 @@
 /**
  * Import modules: Express web server, CORS, dotenv,
- *     mongodb command installs MongoDB database driver that allows your Node.js
- *     applications to connect to the database and work with data.
- *
- *     express installs the web framework for Node.js. (It will make our life easier.)
- *
- *     cors installs a Node.js package that allows cross-origin resource sharing.
- *     dotenv installs the module that loads environment variables from a .env file
- *     into process.env file. This lets you separate configuration files from the code.
  */
-
 const express = require('express');
 const cors = require('cors');
-const dotenv = require('dotenv');
-const MongoClient = require('mongodb').MongoClient;
-const dotenvExt = require('dotenv-extended');
+const mongoose = require('mongoose');
 const app = express();
+//require('dotenv').config(); //Loads environment variables from a .env file into process.env
+
+
+
 
 /**
  * Server configurations
  *
  * Defines app use with database connection and models
  */
+const corsOptions = {
+    origin: 'https://localhost:8081'
+}
 
-require("dotenv").config({ path: "./db/config.env" });
-const port = process.env.PORT || 5000;
-app.use(cors());
+/**
+ * Parse content-types for Application/JSON and Application/Form-Urlencoded
+ */
+app.use(cors(corsOptions));
 app.use(express.json());
-app.use(require("./app/routes/record"));
-// get driver connection
-const dbo = require("./db/conn");
+app.use(express.urlencoded({ extended: true }));
 
-app.listen(port, () => {
-    // perform a database connection when server starts
-    dbo.connectToServer(function (err) {
-        if (err) console.error(err);
-
+/**
+ * Create a test JSON route
+ */
+app.get('/', (req, res) => {
+    res.json({
+        message: 'Welcome to the User Onboarding Application'
     });
-    console.log(`Server is running on port: ${port}`);
+});
+
+
+
+/**
+ * Code to open Mongoose connection to MongoDB database
+ */
+const db = require("./app/models");
+const Role = db.role;
+
+/**
+ * Connect to MongoDB database
+ */
+const dbConfig = require('./app/config/db.config.js');
+db.mongoose
+    .connect(`mongodb://${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}`, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    })
+    .then(() => {
+        console.log("Successfully connect to MongoDB.");
+        initial();
+    })
+    .catch(err => {
+        console.error("Connection error", err);
+        process.exit();
+    });
+
+/**
+ * Create the Roles model with roles types
+ */
+function initial() {
+    Role.estimatedDocumentCount((err, count) => {
+        if (!err && count === 0) {
+            new Role({
+                name: "user"
+            }).save(err => {
+                if (err) {
+                    console.log("error", err);
+                }
+
+                console.log("added 'user' to roles collection");
+            });
+
+            new Role({
+                name: "moderator"
+            }).save(err => {
+                if (err) {
+                    console.log("error", err);
+                }
+
+                console.log("added 'moderator' to roles collection");
+            });
+
+            new Role({
+                name: "admin"
+            }).save(err => {
+                if (err) {
+                    console.log("error", err);
+                }
+
+                console.log("added 'admin' to roles collection");
+            });
+
+            new Role({
+                name: "Expired"
+            }).save(err => {
+                if (err) {
+                    console.log("error", err);
+                }
+
+                console.log("added 'expired' to roles collection");
+            });
+        }
+    });
+
+
+}
+
+// routes
+require('./app/routes/auth.routes')(app);
+require('./app/routes/user.routes')(app);
+
+/**
+ * Set PORT and Listen for incoming requests on 8080
+ */
+const port = process.env.PORT || 8080;
+app.listen(port, () => {
+    console.log(`Server is listening on port ${port}`);
 });

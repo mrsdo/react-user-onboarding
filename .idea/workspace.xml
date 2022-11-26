@@ -2,39 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a17be9f-f334-4a02-a3b5-0e99bf21d2f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server/_server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db/config.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db/conn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/502dd2d95a0b9744902f19bb45ceb8ccf0cf63a2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93c47de4314a8bf1f5f5dc34593df407f5ceebf9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/9948ee096228065ea918d3bdf005b23b9979064c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad8a30996233c30cdd545dbf5f18765b86e6bf64" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/.ENV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/connection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon-adn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon-dash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon-envelope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon-files.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon-folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon-forum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon-git.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon-info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon-pages.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon-rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/icon/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/poly-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/poly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/u1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/u2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/u3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/u4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/images/u5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/styles/header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/sonarlint/issuestore/5/4/5413f6eccd27798259d23036d295e0da4fbe8aa5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/sonarlint/issuestore/9/5/95e5341847c38364da8a8c21ad9a6721bf8a044c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/sonarlint/issuestore/c/c/cc369b963bf7a0dded2cf0f0191194c0e57e233e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/sonarlint/issuestore/d/c/dc60ea9ee1ff6246bf342463277d5b914db2883d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/app/routes/routes-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/db/customers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/server2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react-user-onboarding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-user-onboarding.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f60767916392a914d8973caba68a6557c193ce1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/Figma-20221102-61559PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/routes/record.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Login.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Signup.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/testing-UI/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/fetch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/actions/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/components/BoardAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/components/BoardAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/components/BoardModerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/components/BoardModerator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/components/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/components/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/components/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/components/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/components/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/services/auth.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/services/auth.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/_server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/controllers/auth.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app/models/userRegister.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/models/userRegister.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app/routes/record.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/routes/record.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/config.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/conn.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/conn.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
@@ -52,7 +84,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/react-redux-hooks-jwt-auth" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -77,7 +109,7 @@
     "WebServerToolWindowFactoryState": "true",
     "javascript.nodejs.core.library.configured.version": "16.13.2",
     "javascript.nodejs.core.library.typings.version": "16.18.3",
-    "last_opened_file_path": "/Users/mrsdo/NodeJS-Web/react-user-onboarding/client",
+    "last_opened_file_path": "/Users/mrsdo/NodeJS-Web/react-user-onboarding/react-redux-hooks-jwt-auth/src",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
@@ -89,22 +121,32 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src" />
+      <recent name="$PROJECT_DIR$/react-redux-hooks-jwt-auth/src/styles" />
+      <recent name="$PROJECT_DIR$/server/db" />
       <recent name="$PROJECT_DIR$/client" />
-      <recent name="$PROJECT_DIR$/server/app/models" />
-      <recent name="$PROJECT_DIR$/client/public" />
-      <recent name="$PROJECT_DIR$/server" />
-      <recent name="$PROJECT_DIR$/server/src/app/assets/img" />
+      <recent name="$PROJECT_DIR$/client/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/server/db" />
       <recent name="$PROJECT_DIR$/server/app/routes" />
       <recent name="$PROJECT_DIR$/server/app" />
       <recent name="$PROJECT_DIR$/_docs" />
-      <recent name="$PROJECT_DIR$/_archive" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm Express Server start">
+  <component name="RunManager" selected="npm.React ">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="React " type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/react-redux-hooks-jwt-auth/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm Express Server start" type="js.build_tools.npm">
@@ -120,6 +162,7 @@
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="npm.npm Express Server start" />
+      <item itemvalue="npm.React " />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -143,7 +186,10 @@
       <workItem from="1668853742663" duration="99000" />
       <workItem from="1668969541785" duration="4777000" />
       <workItem from="1669045960363" duration="51767000" />
-      <workItem from="1669290974404" duration="7172000" />
+      <workItem from="1669290974404" duration="12612000" />
+      <workItem from="1669415338059" duration="3426000" />
+      <workItem from="1669427771340" duration="10000" />
+      <workItem from="1669435607257" duration="7813000" />
     </task>
     <servers />
   </component>

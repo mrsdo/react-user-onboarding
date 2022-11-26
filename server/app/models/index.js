@@ -15,9 +15,9 @@ const db = {};
 
 db.mongoose = mongoose;
 
-db.user = require('./user.model');
+db.user = require('./userRegister.model');
 db.role = require('./role.model');
 
-db.ROLES = ['user','moderator', 'admin'];
+db.ROLES = ['user','moderator', 'admin', 'expired'];
 
 module.exports = db;

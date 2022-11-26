@@ -1,0 +1,8 @@
+{
+  "firstname": "Martinique",
+  "lastname": "Dolce",
+  "username": "mrsdo",
+  "email": "marti.dolce@29signals.org",
+  "password": "123456789!!",
+  "roles": ["user","admin"]
+}
