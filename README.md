@@ -126,9 +126,8 @@ Thank you to the folks supporting many openly available source codes, tutorials,
 
 ## Reference Sites 
 
-Application Structure
+Application Structure 
 https://www.bezkoder.com/react-redux-jwt-auth/
-https://www.bezkoder.com/node-js-mongodb-auth-jwt/
 
 Front-end UI/UX
 BOOTSTRAP
